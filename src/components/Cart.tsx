@@ -58,7 +58,7 @@ const Cart = () => {
             <div className='p-4 pl-20'>
                 <h1 className='font-semibold text-3xl mb-4'>Your Cart</h1>
                 {cart.length === 0 ? (
-                    <p>Your Cart is Empty!</p>
+                    <p className="text-center text-xl mt-72">Your Cart is Empty!</p>
                 ) : (
                     <div>
                         <div className='grid grid-cols-3 gap-4'>

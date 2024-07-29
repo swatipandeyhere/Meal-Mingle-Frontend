@@ -90,9 +90,9 @@ const MyOrders = () => {
         <>
             <Navbar />
             <div className='p-4 pl-20'>
-                <h1 className='text-3xl font-bold mb-4'>My Orders</h1>
+                <h1 className='font-semibold text-3xl mb-4'>My Orders</h1>
                 {orders.length === 0 ? (
-                    <p>You have No Orders yet!</p>
+                    <p className="text-center text-xl mt-72">You have No Orders yet!</p>
                 ) : (
                     <div className='space-y-4'>
                         {orders.map((order) => {
